@@ -1,7 +1,7 @@
 {
   "id": "wikisource-vi",
   "domain": "vi.wikisource.org",
-  "version": 1,
+  "version": 2,
   "selectors": {
     "content": ".mw-parser-output",
     "nextLink": ".gen_header_forelink a",
@@ -10,6 +10,6 @@
     "storyTitle": "#firstHeading",
     "chapterTitle": "#firstHeading"
   },
-  "removeSelectors": ["#headerContainer", ".ws-noexport", ".noprint", ".mw-editsection", ".printfooter", "#catlinks", "table", "style", "script"],
+  "removeSelectors": ["#headerContainer", ".ws-noexport", ".noprint", ".mw-editsection", ".printfooter", "#catlinks", ".reference", "table", "style", "script"],
   "textCleanup": []
 }
