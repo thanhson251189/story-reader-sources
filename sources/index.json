@@ -8,6 +8,14 @@
       "version": 1,
       "minAppVersion": "1.0.0",
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich.json"
+    },
+    {
+      "id": "wikisource-vi",
+      "name": "Wikisource Tiếng Việt",
+      "domain": "vi.wikisource.org",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/wikisource-vi.json"
     }
   ]
 }
