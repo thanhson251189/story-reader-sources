@@ -1,14 +1,17 @@
 {
   "id": "wikisource-vi",
   "domain": "vi.wikisource.org",
-  "version": 2,
+  "version": 3,
+  "searchUrl": "https://vi.wikisource.org/w/index.php?title=Special:Search&search={query}&fulltext=1",
   "selectors": {
     "content": ".mw-parser-output",
     "nextLink": ".gen_header_forelink a",
     "prevLink": ".gen_header_backlink a",
     "chapterList": ".mw-parser-output li a[title*='Chương']",
     "storyTitle": "#firstHeading",
-    "chapterTitle": "#firstHeading"
+    "chapterTitle": "#firstHeading",
+    "searchList": "ul.mw-search-results li.mw-search-result",
+    "searchTitle": ".mw-search-result-heading a"
   },
   "removeSelectors": ["#headerContainer", ".ws-noexport", ".noprint", ".mw-editsection", ".printfooter", "#catlinks", ".reference", "table", "style", "script"],
   "textCleanup": []

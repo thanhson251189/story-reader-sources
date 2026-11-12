@@ -1,0 +1,29 @@
+{
+  "id": "doctruyen14",
+  "name": "DocTruyen14",
+  "domain": "doctruyen14.biz",
+  "version": 1,
+  "searchUrl": "https://doctruyen14.biz/?s={query}",
+  "selectors": {
+    "content": ".entry-content",
+    "nextLink": "a.chapter-nav__btn--next",
+    "prevLink": "a.chapter-nav__btn--prev",
+    "chapterTitle": "h1.entry-title",
+    "storyTitle": "h1.entry-title",
+    "chapterList": ".chapter-list a",
+    "searchList": "article.story-card",
+    "searchTitle": "h2.entry-title"
+  },
+  "removeSelectors": [
+    "script",
+    "style",
+    "iframe",
+    ".chapter-nav-wrap",
+    ".chapter-jump",
+    ".reader-toolbar",
+    ".reading-progress",
+    ".wpdiscuz",
+    ".post-nav-links"
+  ],
+  "textCleanup": []
+}

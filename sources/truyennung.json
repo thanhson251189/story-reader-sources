@@ -1,0 +1,32 @@
+{
+  "id": "truyennung",
+  "name": "TruyenNung",
+  "domain": "truyennung.net",
+  "version": 1,
+  "searchUrl": "https://truyennung.net/?s={query}",
+  "selectors": {
+    "content": ".trangcon .box",
+    "nextLink": "p.post-nav-links a.post-page-numbers:last-child",
+    "prevLink": "p.post-nav-links a.post-page-numbers:first-child:nth-last-child(2)",
+    "chapterTitle": "h1",
+    "storyTitle": "h1",
+    "chapterList": ".chapter-list a",
+    "searchList": "div.news-desc",
+    "searchTitle": "h2"
+  },
+  "removeSelectors": [
+    "script",
+    "style",
+    "iframe",
+    ".post-nav-links",
+    ".phantrangcon",
+    ".doctiep",
+    ".quangcaopc1",
+    ".quangcaomb1",
+    ".quangcaogiuapc1",
+    ".quangcaogiuamb1",
+    ".quangcaoduoipc",
+    ".quangcaoduoimb"
+  ],
+  "textCleanup": []
+}

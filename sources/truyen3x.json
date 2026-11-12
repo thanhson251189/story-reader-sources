@@ -1,0 +1,28 @@
+{
+  "id": "truyen3x",
+  "name": "Truyen3X",
+  "domain": "truyen3x.com",
+  "version": 1,
+  "searchUrl": "https://truyen3x.com/tim-kiem?q={query}",
+  "selectors": {
+    "content": "#chapter-content",
+    "nextLink": "a.ch-arrow[data-next]",
+    "prevLink": "a.ch-arrow:not(.disabled)[aria-label='Chương trước']",
+    "chapterTitle": "h1.ch-story",
+    "storyTitle": "h1.ch-story",
+    "chapterList": ".chapter-list a",
+    "searchList": "article.story-row",
+    "searchTitle": "h3.story-row-title a"
+  },
+  "removeSelectors": [
+    "script",
+    "style",
+    "iframe",
+    ".ch-bar",
+    ".ch-end",
+    ".rate-box",
+    ".comments",
+    ".reader-progress"
+  ],
+  "textCleanup": []
+}

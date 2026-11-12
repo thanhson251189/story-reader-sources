@@ -5,7 +5,7 @@
       "id": "truyendich",
       "name": "TruyenDich",
       "domain": "truyendich.space",
-      "version": 1,
+      "version": 2,
       "minAppVersion": "1.0.0",
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich.json"
     },
@@ -13,9 +13,33 @@
       "id": "wikisource-vi",
       "name": "Wikisource Tiếng Việt",
       "domain": "vi.wikisource.org",
-      "version": 2,
+      "version": 3,
       "minAppVersion": "1.0.0",
-      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/wikisource-vi.json?v=2"
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/wikisource-vi.json?v=3"
+    },
+    {
+      "id": "truyen3x",
+      "name": "Truyen3X",
+      "domain": "truyen3x.com",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyen3x.json"
+    },
+    {
+      "id": "doctruyen14",
+      "name": "DocTruyen14",
+      "domain": "doctruyen14.biz",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/doctruyen14.json"
+    },
+    {
+      "id": "truyennung",
+      "name": "TruyenNung",
+      "domain": "truyennung.net",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyennung.json"
     }
   ]
 }
