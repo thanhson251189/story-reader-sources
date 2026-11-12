@@ -1,8 +1,13 @@
 {
   "id": "truyendich",
   "domain": "truyendich.space",
-  "version": 2,
+  "version": 3,
   "searchUrl": "https://truyendich.space/tim-kiem?q={query}",
+  "tocApi": {
+    "novelUrl": "https://truyendich.space/api/novels/{slug}",
+    "listUrl": "https://truyendich.space/api/novels/{slug}/chapters?size=200&page={page}",
+    "chapterUrl": "https://truyendich.space/doc-truyen/{slug}/chuong-{number}"
+  },
   "selectors": {
     "content": "#original-content-tab",
     "nextLink": "a[aria-label='Chương sau']",

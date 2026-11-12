@@ -5,9 +5,9 @@
       "id": "truyendich",
       "name": "TruyenDich",
       "domain": "truyendich.space",
-      "version": 2,
+      "version": 3,
       "minAppVersion": "1.0.0",
-      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich.json"
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich.json?v=3"
     },
     {
       "id": "wikisource-vi",
