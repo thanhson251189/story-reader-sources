@@ -1,0 +1,29 @@
+{
+  "id": "truyendichvn",
+  "name": "TruyenDich.VN",
+  "domain": "truyendich.vn",
+  "version": 1,
+  "searchUrl": "https://truyendich.vn/tim-kiem?search={query}",
+  "tocPageUrl": "https://truyendich.vn/{slug}/trang-{page}/",
+  "selectors": {
+    "content": "#chapter-c",
+    "nextLink": "a#next_chap:not(.disabled)",
+    "prevLink": "a#prev_chap:not(.disabled)",
+    "chapterTitle": ".chapter-title",
+    "storyTitle": "h1",
+    "cover": "img[itemprop='image']",
+    "chapterList": ".list-chapter a",
+    "searchList": "[itemtype='https://schema.org/Book']",
+    "searchTitle": ".truyen-title a"
+  },
+  "removeSelectors": [
+    "script",
+    "style",
+    "iframe",
+    "ins",
+    ".ads",
+    ".advertisement",
+    ".box-notice"
+  ],
+  "textCleanup": []
+}
