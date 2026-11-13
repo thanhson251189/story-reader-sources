@@ -40,14 +40,6 @@
       "version": 1,
       "minAppVersion": "1.0.0",
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyennung.json"
-    },
-    {
-      "id": "truyendichvn",
-      "name": "TruyenDich.VN",
-      "domain": "truyendich.vn",
-      "version": 1,
-      "minAppVersion": "1.0.16",
-      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendichvn.json"
     }
   ]
 }
