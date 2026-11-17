@@ -4,10 +4,10 @@
     {
       "id": "truyendich",
       "name": "TruyenDich",
-      "domain": "truyendich.space",
-      "version": 3,
-      "minAppVersion": "1.0.0",
-      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich.json?v=3"
+      "domain": "truyendich.us",
+      "version": 4,
+      "minAppVersion": "1.0.17",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich.json?v=4"
     },
     {
       "id": "wikisource-vi",

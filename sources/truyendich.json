@@ -1,12 +1,12 @@
 {
   "id": "truyendich",
-  "domain": "truyendich.space",
-  "version": 3,
-  "searchUrl": "https://truyendich.space/tim-kiem?q={query}",
+  "domain": "truyendich.us",
+  "version": 4,
+  "searchUrl": "https://truyendich.us/tim-kiem?q={query}",
   "tocApi": {
-    "novelUrl": "https://truyendich.space/api/novels/{slug}",
-    "listUrl": "https://truyendich.space/api/novels/{slug}/chapters?size=200&page={page}",
-    "chapterUrl": "https://truyendich.space/doc-truyen/{slug}/chuong-{number}"
+    "novelUrl": "https://truyendich.us/api/novels/{slug}",
+    "listUrl": "https://truyendich.us/api/novels/{slug}/chapters?size=200&page={page}",
+    "chapterUrl": "https://truyendich.us/doc-truyen/{slug}/chuong-{number}"
   },
   "selectors": {
     "content": "#original-content-tab",
