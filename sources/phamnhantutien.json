@@ -1,0 +1,19 @@
+{
+  "id": "phamnhantutien",
+  "name": "Phàm Nhân Tu Tiên",
+  "domain": "phamnhantutien.org",
+  "version": 1,
+  "searchUrl": "https://phamnhantutien.org/?s={query}",
+  "tocPageUrl": "https://phamnhantutien.org/truyen/{slug}/?trang={page}",
+  "selectors": {
+    "content": ".dt-content-chu",
+    "chapterTitle": "h1.dt-chapter-title",
+    "storyTitle": "h1",
+    "cover": "img.wp-post-image",
+    "chapterList": "a[href*='/chuong-']",
+    "searchList": ".post-item",
+    "searchTitle": "h5.post-title"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}

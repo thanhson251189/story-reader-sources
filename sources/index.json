@@ -80,6 +80,22 @@
       "version": 1,
       "minAppVersion": "1.0.31",
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/dammyy.json"
+    },
+    {
+      "id": "docln",
+      "name": "DocLN",
+      "domain": "docln.sbs",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/docln.json"
+    },
+    {
+      "id": "phamnhantutien",
+      "name": "Phàm Nhân Tu Tiên",
+      "domain": "phamnhantutien.org",
+      "version": 1,
+      "minAppVersion": "1.0.32",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/phamnhantutien.json"
     }
   ]
 }

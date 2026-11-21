@@ -1,0 +1,17 @@
+{
+  "id": "docln",
+  "name": "DocLN",
+  "domain": "docln.sbs",
+  "version": 1,
+  "searchUrl": "https://docln.sbs/tim-kiem?keywords={query}",
+  "tocPageUrl": "https://docln.sbs/truyen/{slug}?page={page}",
+  "selectors": {
+    "content": ".reading-content",
+    "storyTitle": ".series-name-group",
+    "chapterList": "a[href*='/c']",
+    "searchList": ".thumb-item-flow",
+    "searchTitle": ".series-title a"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}
