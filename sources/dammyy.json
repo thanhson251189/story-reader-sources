@@ -1,0 +1,31 @@
+{
+  "id": "dammyy",
+  "name": "Đam Mỹ",
+  "domain": "dammyy.cc",
+  "version": 1,
+  "searchUrl": "https://dammyy.cc/tim-kiem?search={query}",
+  "loginUrl": "https://dammyy.cc/login",
+  "selectors": {
+    "content": ".chapter-content",
+    "storyTitle": "h1",
+    "cover": "img.img-fluid",
+    "chapterList": "a[href*='chuong-']",
+    "searchList": ".product-grid .card",
+    "searchTitle": "h3"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": [
+    {
+      "pattern": "^Mời Quý độc giả CLICK.*",
+      "replacement": ""
+    },
+    {
+      "pattern": "^MỞ ỨNG DỤNG SHOPEE.*",
+      "replacement": ""
+    },
+    {
+      "pattern": "^https://s\\.shopee.*",
+      "replacement": ""
+    }
+  ]
+}
