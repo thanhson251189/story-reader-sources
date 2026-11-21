@@ -40,6 +40,38 @@
       "version": 1,
       "minAppVersion": "1.0.0",
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyennung.json"
+    },
+    {
+      "id": "truyendich-store",
+      "name": "TruyenDichAI",
+      "domain": "truyendich.store",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyendich-store.json"
+    },
+    {
+      "id": "truyenke",
+      "name": "Truyện Kể",
+      "domain": "truyenke.com",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyenke.json"
+    },
+    {
+      "id": "tutruyen",
+      "name": "Tủ Truyện",
+      "domain": "tutruyen.us",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/tutruyen.json"
+    },
+    {
+      "id": "truyenchu",
+      "name": "TruyệnChu",
+      "domain": "truyenchu.net",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyenchu.json"
     }
   ]
 }

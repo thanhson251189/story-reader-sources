@@ -1,0 +1,21 @@
+{
+  "id": "truyenke",
+  "name": "Truyện Kể",
+  "domain": "truyenke.com",
+  "version": 1,
+  "searchUrl": "https://truyenke.com/?s={query}",
+  "tocPageUrl": "https://truyenke.com/truyen/{slug}/?chapter-page={page}&thu_tu=asc",
+  "selectors": {
+    "content": ".entry-content",
+    "nextLink": "a.cn-next",
+    "prevLink": "a.cn-prev",
+    "chapterTitle": "h1",
+    "storyTitle": "h1",
+    "cover": "img.wp-post-image",
+    "chapterList": ".tm-chapter-list a",
+    "searchList": "article.tm-card",
+    "searchTitle": "h3"
+  },
+  "removeSelectors": ["script", "style", "iframe", ".chuong-nav-wrapper", ".tm-chapter-tools"],
+  "textCleanup": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tutruyen",
+  "name": "Tủ Truyện",
+  "domain": "tutruyen.us",
+  "version": 1,
+  "searchUrl": "https://tutruyen.us/thu-vien?title={query}",
+  "selectors": {
+    "content": ".field-name-body",
+    "nextLink": "a.page-next",
+    "prevLink": "a.page-previous",
+    "storyTitle": "h1.page-title",
+    "cover": "img",
+    "chapterList": "a[href*='/chuong-']",
+    "searchList": ".views-row",
+    "searchTitle": ".tvtitle a"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}

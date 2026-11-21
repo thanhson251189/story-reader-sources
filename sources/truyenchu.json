@@ -1,0 +1,19 @@
+{
+  "id": "truyenchu",
+  "name": "TruyệnChu",
+  "domain": "truyenchu.net",
+  "version": 1,
+  "searchUrl": "https://truyenchu.net/?s={query}",
+  "selectors": {
+    "content": ".reading-content",
+    "nextLink": "a.btn.next_page",
+    "prevLink": "a.btn.prev_page",
+    "chapterTitle": "h1",
+    "cover": ".item-thumb img",
+    "chapterList": ".wp-manga-chapter a",
+    "searchList": ".page-listing-item",
+    "searchTitle": "h3"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}
