@@ -23,6 +23,7 @@
       "domain": "truyen3x.com",
       "version": 1,
       "minAppVersion": "1.0.0",
+      "adult": true,
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyen3x.json"
     },
     {
@@ -31,6 +32,7 @@
       "domain": "doctruyen14.biz",
       "version": 1,
       "minAppVersion": "1.0.0",
+      "adult": true,
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/doctruyen14.json"
     },
     {
@@ -39,6 +41,7 @@
       "domain": "truyennung.net",
       "version": 1,
       "minAppVersion": "1.0.0",
+      "adult": true,
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyennung.json"
     },
     {
@@ -111,6 +114,7 @@
       "domain": "truyensachay.net",
       "version": 1,
       "minAppVersion": "1.0.0",
+      "adult": true,
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyensachay.json"
     },
     {
@@ -119,6 +123,7 @@
       "domain": "truyensacfull.pro",
       "version": 1,
       "minAppVersion": "1.0.65",
+      "adult": true,
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyensacfull.json"
     },
     {
@@ -127,6 +132,7 @@
       "domain": "truyenc.com",
       "version": 1,
       "minAppVersion": "1.0.65",
+      "adult": true,
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyenc.json"
     }
   ]
