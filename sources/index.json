@@ -104,6 +104,30 @@
       "version": 1,
       "minAppVersion": "1.0.58",
       "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/khotruyen.json"
+    },
+    {
+      "id": "truyensachay",
+      "name": "Truyện Sắc Hay",
+      "domain": "truyensachay.net",
+      "version": 1,
+      "minAppVersion": "1.0.0",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyensachay.json"
+    },
+    {
+      "id": "truyensacfull",
+      "name": "Truyện Sắc Full",
+      "domain": "truyensacfull.pro",
+      "version": 1,
+      "minAppVersion": "1.0.65",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyensacfull.json"
+    },
+    {
+      "id": "truyenc",
+      "name": "TruyenC",
+      "domain": "truyenc.com",
+      "version": 1,
+      "minAppVersion": "1.0.65",
+      "url": "https://raw.githubusercontent.com/thanhson251189/story-reader-sources/main/sources/truyenc.json"
     }
   ]
 }

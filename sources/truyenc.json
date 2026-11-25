@@ -1,0 +1,20 @@
+{
+  "id": "truyenc",
+  "name": "TruyenC",
+  "domain": "truyenc.com",
+  "version": 1,
+  "titleCleanup": [
+    { "pattern": "^\\d+\\s+", "replacement": "" }
+  ],
+  "selectors": {
+    "content": ".story-content",
+    "nextLink": "#footer-bar a:has(i.fa-arrow-right)",
+    "prevLink": "#footer-bar a:has(i.fa-arrow-left)",
+    "chapterTitle": ".content h1",
+    "storyTitle": "h1",
+    "cover": "img.story-image",
+    "chapterList": "a.story-chap-item"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}

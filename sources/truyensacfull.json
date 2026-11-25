@@ -1,0 +1,24 @@
+{
+  "id": "truyensacfull",
+  "name": "Truyện Sắc Full",
+  "domain": "truyensacfull.pro",
+  "version": 1,
+  "searchUrl": "https://truyensacfull.pro/search?keysearch={query}",
+  "tocPageUrl": "https://truyensacfull.pro/truyen/{slug}?page={page}",
+  "paragraphBreak": "line",
+  "selectors": {
+    "content": ".reader-content",
+    "nextLink": ".reader-nav td:last-child a[href*='/chuong-']",
+    "prevLink": ".reader-nav td:first-child a[href*='/chuong-']",
+    "chapterTitle": ".tenchuong",
+    "storyTitle": "h1",
+    "cover": "img.story-cover",
+    "chapterList": "a[href*='/chuong-']",
+    "searchList": "table.table tbody tr",
+    "searchTitle": ".tabtruyen-name"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": [
+    { "pattern": "^Chương\\s+\\d+:\\s*CHƯƠNG\\s+\\d+$", "replacement": "" }
+  ]
+}

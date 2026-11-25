@@ -1,0 +1,21 @@
+{
+  "id": "truyensachay",
+  "name": "Truyện Sắc Hay",
+  "domain": "truyensachay.net",
+  "version": 1,
+  "searchUrl": "https://truyensachay.net/tim-truyen/search.php?keysearch={query}",
+  "tocPageUrl": "https://truyensachay.net/truyen/{slug}/page{page}",
+  "selectors": {
+    "content": "#chapter-content",
+    "nextLink": "a[title=\"Chương sau\"]",
+    "prevLink": "a[title=\"Chương trước\"]",
+    "chapterTitle": "h2.chapter-note",
+    "storyTitle": "span.title1",
+    "cover": "img[itemprop=\"image\"]",
+    "chapterList": "table.table-list-chapter a",
+    "searchList": ".article",
+    "searchTitle": ".article-title a"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}
