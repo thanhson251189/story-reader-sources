@@ -1,0 +1,23 @@
+{
+  "id": "khotruyen",
+  "domain": "khotruyen.site",
+  "version": 1,
+  "api": {
+    "searchUrl": "https://khotruyen.site/api/stories?q={query}&page=1&perPage=30",
+    "storyUrl": "https://khotruyen.site/api/stories/{slug}",
+    "chapterUrl": "https://khotruyen.site/api/stories/{slug}/chapters/{chapter}",
+    "storyPageUrl": "https://khotruyen.site/truyen/{slug}",
+    "chapterPageUrl": "https://khotruyen.site/truyen/{slug}/chuong/{chapter}"
+  },
+  "selectors": {
+    "content": ".reader-text-content",
+    "nextLink": ".reader-nav-row-top > a.reader-nav-btn:last-child",
+    "prevLink": ".reader-nav-row-top > a.reader-nav-btn:first-child",
+    "chapterTitle": ".reader-subtitle",
+    "storyTitle": "h1.detail-title",
+    "cover": "img.detail-cover",
+    "chapterList": "a[href*='/chuong/']"
+  },
+  "removeSelectors": ["script", "style", "iframe"],
+  "textCleanup": []
+}
